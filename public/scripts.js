@@ -16,3 +16,12 @@ function changeZIndex() {
         portfolioWindow.style.zIndex = "0";
     }
 }
+function openAboutMePage() {
+    open("aboutMe.html", "_self")
+}
+function openContactPage() {
+    open("contact.html", "_self")
+}
+function openPortfolioPage() {
+    open("portfolio.html", "_self")
+}
