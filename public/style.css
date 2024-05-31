@@ -13,19 +13,19 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
-  /* 1 */
-  border-width: 0;
-  /* 2 */
-  border-style: solid;
-  /* 2 */
-  border-color: #e5e7eb;
-  /* 2 */
+    box-sizing: border-box;
+    /* 1 */
+    border-width: 0;
+    /* 2 */
+    border-style: solid;
+    /* 2 */
+    border-color: #e5e7eb;
+    /* 2 */
 }
 
 ::before,
 ::after {
-  --tw-content: '';
+    --tw-content: '';
 }
 
 /*
@@ -38,21 +38,22 @@
 */
 
 html {
-  line-height: 1.5;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -moz-tab-size: 4;
-  /* 3 */
-  -o-tab-size: 4;
-     tab-size: 4;
-  /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  /* 4 */
-  font-feature-settings: normal;
-  /* 5 */
-  font-variation-settings: normal;
-  /* 6 */
+
+    line-height: 1.5;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+    -moz-tab-size: 4;
+    /* 3 */
+    -o-tab-size: 4;
+    tab-size: 4;
+    /* 3 */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /* 4 */
+    font-feature-settings: normal;
+    /* 5 */
+    font-variation-settings: normal;
+    /* 6 */
 }
 
 /*
@@ -61,10 +62,10 @@ html {
 */
 
 body {
-  margin: 0;
-  /* 1 */
-  line-height: inherit;
-  /* 2 */
+    margin: 0;
+    /* 1 */
+    line-height: inherit;
+    /* 2 */
 }
 
 /*
@@ -74,12 +75,12 @@ body {
 */
 
 hr {
-  height: 0;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  border-top-width: 1px;
-  /* 3 */
+    height: 0;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+    border-top-width: 1px;
+    /* 3 */
 }
 
 /*
@@ -87,8 +88,8 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 */
 
 abbr:where([title]) {
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
 }
 
 /*
@@ -101,8 +102,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: inherit;
-  font-weight: inherit;
+    font-size: inherit;
+    font-weight: inherit;
 }
 
 /*
@@ -110,8 +111,8 @@ Reset links to optimize for opt-in styling instead of opt-out.
 */
 
 a {
-  color: inherit;
-  text-decoration: inherit;
+    color: inherit;
+    text-decoration: inherit;
 }
 
 /*
@@ -120,7 +121,7 @@ Add the correct font weight in Edge and Safari.
 
 b,
 strong {
-  font-weight: bolder;
+    font-weight: bolder;
 }
 
 /*
@@ -132,10 +133,10 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
 }
 
 /*
@@ -143,7 +144,7 @@ Add the correct font size in all browsers.
 */
 
 small {
-  font-size: 80%;
+    font-size: 80%;
 }
 
 /*
@@ -152,18 +153,18 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 
 sub {
-  bottom: -0.25em;
+    bottom: -0.25em;
 }
 
 sup {
-  top: -0.5em;
+    top: -0.5em;
 }
 
 /*
@@ -173,12 +174,12 @@ sup {
 */
 
 table {
-  text-indent: 0;
-  /* 1 */
-  border-color: inherit;
-  /* 2 */
-  border-collapse: collapse;
-  /* 3 */
+    text-indent: 0;
+    /* 1 */
+    border-color: inherit;
+    /* 2 */
+    border-collapse: collapse;
+    /* 3 */
 }
 
 /*
@@ -192,20 +193,20 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  font-weight: inherit;
-  /* 1 */
-  line-height: inherit;
-  /* 1 */
-  color: inherit;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-  padding: 0;
-  /* 3 */
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    font-weight: inherit;
+    /* 1 */
+    line-height: inherit;
+    /* 1 */
+    color: inherit;
+    /* 1 */
+    margin: 0;
+    /* 2 */
+    padding: 0;
+    /* 3 */
 }
 
 /*
@@ -214,7 +215,7 @@ Remove the inheritance of text transform in Edge and Firefox.
 
 button,
 select {
-  text-transform: none;
+    text-transform: none;
 }
 
 /*
@@ -226,12 +227,12 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  -webkit-appearance: button;
-  /* 1 */
-  background-color: transparent;
-  /* 2 */
-  background-image: none;
-  /* 2 */
+    -webkit-appearance: button;
+    /* 1 */
+    background-color: transparent;
+    /* 2 */
+    background-image: none;
+    /* 2 */
 }
 
 /*
@@ -239,7 +240,7 @@ Use the modern Firefox focus style for all focusable elements.
 */
 
 :-moz-focusring {
-  outline: auto;
+    outline: auto;
 }
 
 /*
@@ -247,7 +248,7 @@ Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/
 */
 
 :-moz-ui-invalid {
-  box-shadow: none;
+    box-shadow: none;
 }
 
 /*
@@ -255,7 +256,7 @@ Add the correct vertical alignment in Chrome and Firefox.
 */
 
 progress {
-  vertical-align: baseline;
+    vertical-align: baseline;
 }
 
 /*
@@ -264,7 +265,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-  height: auto;
+    height: auto;
 }
 
 /*
@@ -273,10 +274,10 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
 }
 
 /*
@@ -284,7 +285,7 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-search-decoration {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 /*
@@ -293,10 +294,10 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */
 }
 
 /*
@@ -304,7 +305,7 @@ Add the correct display in Chrome and Safari.
 */
 
 summary {
-  display: list-item;
+    display: list-item;
 }
 
 /*
@@ -324,24 +325,24 @@ hr,
 figure,
 p,
 pre {
-  margin: 0;
+    margin: 0;
 }
 
 fieldset {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 legend {
-  padding: 0;
+    padding: 0;
 }
 
 ol,
 ul,
 menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 /*
@@ -349,7 +350,7 @@ Prevent resizing textareas horizontally by default.
 */
 
 textarea {
-  resize: vertical;
+    resize: vertical;
 }
 
 /*
@@ -358,18 +359,18 @@ textarea {
 */
 
 input::-moz-placeholder, textarea::-moz-placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
+    opacity: 1;
+    /* 1 */
+    color: #9ca3af;
+    /* 2 */
 }
 
 input::placeholder,
 textarea::placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
+    opacity: 1;
+    /* 1 */
+    color: #9ca3af;
+    /* 2 */
 }
 
 /*
@@ -378,7 +379,7 @@ Set the default cursor for buttons.
 
 button,
 [role="button"] {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 /*
@@ -386,7 +387,7 @@ Make sure disabled buttons don't get the pointer cursor.
 */
 
 :disabled {
-  cursor: default;
+    cursor: default;
 }
 
 /*
@@ -403,10 +404,10 @@ audio,
 iframe,
 embed,
 object {
-  display: block;
-  /* 1 */
-  vertical-align: middle;
-  /* 2 */
+    display: block;
+    /* 1 */
+    vertical-align: middle;
+    /* 2 */
 }
 
 /*
@@ -415,809 +416,999 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 img,
 video {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
 
 [hidden] {
-  display: none;
+    display: none;
 }
 
 body {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-  text-align: center;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+    text-align: center;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 *, ::before, ::after {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
 }
 
 ::backdrop {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
 }
 
 .absolute {
-  position: absolute;
+    position: absolute;
 }
 
 .relative {
-  position: relative;
+    position: relative;
 }
 
 .top-2 {
-  top: 0.5rem;
+    top: 0.5rem;
+}
+
+.top-buttonInBox {
+    top: 29.5%;
 }
 
 .bottom-0 {
-  bottom: 0px;
+    bottom: 0px;
 }
 
 .bottom-1 {
-  bottom: 0.25rem;
+    bottom: 0.25rem;
 }
 
 .bottom-14 {
-  bottom: 3.5rem;
+    bottom: 3.5rem;
 }
 
 .top-inScreen {
-  top: 20%;
+    top: 25%;
 }
 
 .top-1\/2 {
-  top: 50%;
+    top: 50%;
 }
 
 .top-1\/4 {
-  top: 25%;
+    top: 25%;
 }
 
 .top-2\.5 {
-  top: 0.625rem;
+    top: 0.625rem;
 }
 
 .top-0 {
-  top: 0px;
+    top: 0px;
 }
 
 .top-3\/4 {
-  top: 75%;
+    top: 75%;
 }
 
 .top-96 {
-  top: 24rem;
+    top: 24rem;
 }
 
 .top-3 {
-  top: 0.75rem;
+    top: 0.75rem;
 }
 
 .top-4 {
-  top: 1rem;
+    top: 1rem;
 }
 
 .top-5 {
-  top: 1.25rem;
+    top: 1.25rem;
 }
 
 .top-10 {
-  top: 2.5rem;
+    top: 2.5rem;
 }
 
 .left-0 {
-  left: 0px;
+    left: 0px;
 }
 
 .left-\[1024px\] {
-  left: 1024px;
+    left: 1024px;
 }
 
 .left-\[1034px\] {
-  left: 1034px;
+    left: 1034px;
 }
 
 .left-\[1035px\] {
-  left: 1035px;
+    left: 1035px;
 }
 
 .left-\[1036px\] {
-  left: 1036px;
+    left: 1036px;
 }
 
 .left-\[1101px\] {
-  left: 1101px;
+    left: 1101px;
 }
 
 .left-\[294px\] {
-  left: 294px;
+    left: 294px;
 }
 
 .left-\[320px\] {
-  left: 320px;
+    left: 320px;
 }
 
 .left-\[385px\] {
-  left: 385px;
+    left: 385px;
 }
 
 .left-\[390px\] {
-  left: 390px;
+    left: 390px;
 }
 
 .left-\[636px\] {
-  left: 636px;
+    left: 636px;
 }
 
 .left-\[724px\] {
-  left: 724px;
+    left: 724px;
 }
 
 .left-\[756px\] {
-  left: 756px;
+    left: 756px;
 }
 
 .left-\[769px\] {
-  left: 769px;
+    left: 769px;
 }
 
 .left-\[776px\] {
-  left: 776px;
+    left: 776px;
 }
 
 .left-\[777px\] {
-  left: 777px;
+    left: 777px;
 }
 
 .left-\[779px\] {
-  left: 779px;
+    left: 779px;
 }
 
 .left-\[783px\] {
-  left: 783px;
+    left: 783px;
 }
 
 .left-\[789px\] {
-  left: 789px;
+    left: 789px;
 }
 
 .left-\[952px\] {
-  left: 952px;
+    left: 952px;
 }
 
 .left-\[992px\] {
-  left: 992px;
+    left: 992px;
 }
 
 .top-\[1272px\] {
-  top: 1272px;
+    top: 1272px;
 }
 
 .top-\[1495px\] {
-  top: 1495px;
+    top: 1495px;
 }
 
 .top-\[1627px\] {
-  top: 1627px;
+    top: 1627px;
 }
 
 .top-\[398px\] {
-  top: 398px;
+    top: 398px;
 }
 
 .top-\[460px\] {
-  top: 460px;
+    top: 460px;
 }
 
 .top-\[465px\] {
-  top: 465px;
+    top: 465px;
 }
 
 .top-\[492px\] {
-  top: 492px;
+    top: 492px;
 }
 
 .top-\[517px\] {
-  top: 517px;
+    top: 517px;
 }
 
 .top-\[56px\] {
-  top: 56px;
+    top: 56px;
 }
 
 .top-\[65px\] {
-  top: 65px;
+    top: 65px;
 }
 
 .top-\[689px\] {
-  top: 689px;
+    top: 689px;
 }
 
 .top-\[690px\] {
-  top: 690px;
+    top: 690px;
 }
 
 .top-\[691px\] {
-  top: 691px;
+    top: 691px;
 }
 
 .top-\[78px\] {
-  top: 78px;
+    top: 78px;
 }
 
 .top-\[87px\] {
-  top: 87px;
+    top: 87px;
 }
 
 .top-\[92px\] {
-  top: 92px;
+    top: 92px;
 }
 
 .top-\[96px\] {
-  top: 96px;
+    top: 96px;
 }
 
 .top-\[971px\] {
-  top: 971px;
+    top: 971px;
 }
 
 .left-\[339px\] {
-  left: 339px;
+    left: 339px;
 }
 
 .left-\[442px\] {
-  left: 442px;
+    left: 442px;
 }
 
 .left-\[718px\] {
-  left: 718px;
+    left: 718px;
 }
 
 .top-\[1167px\] {
-  top: 1167px;
+    top: 1167px;
 }
 
 .top-\[1417px\] {
-  top: 1417px;
+    top: 1417px;
 }
 
 .top-\[68px\] {
-  top: 68px;
+    top: 68px;
 }
 
 .mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
 }
 
 .mb-10 {
-  margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .mt-20 {
-  margin-top: 5rem;
+    margin-top: 5rem;
 }
 
 .mt-5 {
-  margin-top: 1.25rem;
+    margin-top: 1.25rem;
 }
 
 .mt-10 {
-  margin-top: 2.5rem;
+    margin-top: 2.5rem;
 }
 
 .ml-auto {
-  margin-left: auto;
+    margin-left: auto;
 }
 
 .mr-auto {
-  margin-right: auto;
+    margin-right: auto;
 }
 
 .mt-24 {
-  margin-top: 6rem;
+    margin-top: 6rem;
 }
 
 .mt-28 {
-  margin-top: 7rem;
+    margin-top: 7rem;
 }
+
 .mt-36 {
-  margin-top: 10%;
+    margin-top: 10%;
 }
+
 .mt-80 {
-  margin-top: 22rem;
+    margin-top: 22rem;
 }
+
 .h-11 {
-  height: 2.75rem;
+    height: 2.75rem;
 }
 
 .h-36 {
-  height: 9rem;
+    height: 9rem;
 }
 
 .h-6 {
-  height: 1.5rem;
+    height: 1.5rem;
 }
 
 .h-80 {
-  height: 20rem;
+    height: 20rem;
 }
 
 .h-9 {
-  height: 2.25rem;
+    height: 2.25rem;
 }
 
 .h-96 {
-  height: 24rem;
+    height: 24rem;
 }
 
 .h-40 {
-  height: 10rem;
+    height: 10rem;
 }
 
 .h-auto {
-  height: auto;
+    height: auto;
 }
 
 .w-auto {
-  width: auto;
+    width: auto;
 }
 
 .w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
 }
 
 .w-1\/12 {
-  width: 8.333333%;
+    width: 8.333333%;
 }
 
 .w-2 {
-  width: 0.5rem;
+    width: 0.5rem;
 }
 
 .w-0 {
-  width: 0px;
+    width: 0px;
 }
 
 .w-1 {
-  width: 0.25rem;
+    width: 0.25rem;
 }
 
 .w-1\/5 {
-  width: 20%;
+    width: 20%;
 }
 
 .w-1\/2 {
-  width: 50%;
+    width: 50%;
 }
 
 .w-1\/3 {
-  width: 33.333333%;
+    width: 33.333333%;
 }
 
 .w-1\/4 {
-  width: 25%;
+    width: 25%;
 }
 
 .w-7\/12 {
-  width: 58.333333%;
+    width: 58.333333%;
 }
 
 .w-56 {
-  width: 14rem;
+    width: 14rem;
 }
 
 .w-20 {
-  width: 5rem;
+    width: 5rem;
 }
 
 .w-1\.5 {
-  width: 0.375rem;
+    width: 0.375rem;
 }
 
 .w-8\/12 {
-  width: 66.666667%;
+    width: 66.666667%;
 }
 
 .w-16 {
-  width: 4rem;
+    width: 4rem;
 }
 
 .w-24 {
-  width: 6rem;
+    width: 6rem;
 }
 
 .w-40 {
-  width: 10rem;
+    width: 10rem;
 }
 
 .w-44 {
-  width: 11rem;
+    width: 11rem;
 }
 
 .w-80 {
-  width: 20rem;
+    width: 20rem;
 }
 
 .w-96 {
-  width: 24rem;
+    width: 24rem;
 }
 
 .w-full {
-  width: 100%;
+    width: 100%;
 }
-.-translate-x-inScreen{
-  --tw-translate-x: 93%;
+
+.-translate-x-leftArrow {
+    --tw-translate-x: -450px;
 }
-.-translate-y-inScreen{
-  --tw-translate-y: 60%;
+
+.-translate-y-leftArrow {
+    --tw-translate-y: 70px;
 }
+
+.-translate-x-inScreen {
+    --tw-translate-x: -2%;
+}
+
+.-translate-y-inScreen {
+    --tw-translate-y: 30%;
+}
+
 .-translate-x-0 {
-  --tw-translate-x: -0px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-translate-x: -0px;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-x-1\/2 {
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-translate-x: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-x-1 {
-  --tw-translate-x: -0.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-translate-x: -0.25rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-x-2 {
-  --tw-translate-x: -0.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-translate-x: -0.5rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-x-2\/3 {
-  --tw-translate-x: -66.666667%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-translate-x: -66.666667%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-x-3 {
-  --tw-translate-x: -0.75rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-translate-x: -0.75rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-x-10 {
-  --tw-translate-x: -2.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-translate-x: -2.5rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-x-14 {
-  --tw-translate-x: -3.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-translate-x: -3.5rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-x-1\.5 {
-  --tw-translate-x: -0.375rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-translate-x: -0.375rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-x-0\.5 {
-  --tw-translate-x: -0.125rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-translate-x: -0.125rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .scale-50 {
-  --tw-scale-x: .5;
-  --tw-scale-y: .5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-scale-x: .5;
+    --tw-scale-y: .5;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-scale-125 {
-  --tw-scale-x: -1.25;
-  --tw-scale-y: -1.25;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-scale-x: -1.25;
+    --tw-scale-y: -1.25;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .scale-0 {
-  --tw-scale-x: 0;
-  --tw-scale-y: 0;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-scale-x: 0;
+    --tw-scale-y: 0;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .scale-\[0\.1\] {
-  --tw-scale-x: 0.1;
-  --tw-scale-y: 0.1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-scale-x: 0.1;
+    --tw-scale-y: 0.1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .scale-\[0\.5\] {
-  --tw-scale-x: 0.5;
-  --tw-scale-y: 0.5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-scale-x: 0.5;
+    --tw-scale-y: 0.5;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .scale-\[0\.3\] {
-  --tw-scale-x: 0.3;
-  --tw-scale-y: 0.3;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-scale-x: 0.3;
+    --tw-scale-y: 0.3;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .scale-\[0\.2\] {
-  --tw-scale-x: 0.2;
-  --tw-scale-y: 0.2;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-scale-x: 0.2;
+    --tw-scale-y: 0.2;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .scale-\[0\.14\] {
-  --tw-scale-x: 0.14;
-  --tw-scale-y: 0.14;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-scale-x: 0.14;
+    --tw-scale-y: 0.14;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .scale-\[0\.4\] {
-  --tw-scale-x: 0.4;
-  --tw-scale-y: 0.4;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-scale-x: 0.4;
+    --tw-scale-y: 0.4;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .scroll-mt-96 {
-  scroll-margin-top: 24rem;
+    scroll-margin-top: 24rem;
 }
 
 .place-content-center {
-  place-content: center;
+    place-content: center;
 }
 
 .content-center {
-  align-content: center;
+    align-content: center;
 }
 
 .rounded-full {
-  border-radius: 9999px;
+    border-radius: 9999px;
 }
 
 .border {
-  border-width: 1px;
+    border-width: 1px;
 }
 
 .border-neutral-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(115 115 115 / var(--tw-border-opacity));
+    --tw-border-opacity: 1;
+    border-color: rgb(115 115 115 / var(--tw-border-opacity));
 }
 
 .bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\/images\/mainPage\/mainBackground\.png\'\)\] {
-  background-image: url('./images/mainPage/mainBackground.png');
+    background-image: url('./images/mainPage/mainBackground.png');
 }
 
 .bg-\[url\(\'\.\/images\/mainPage\/logo\%20duze\.png\'\)\] {
-  background-image: url('./images/mainPage/logo%20duze.png');
+    background-image: url('./images/mainPage/logo%20duze.png');
 }
 
 .bg-\[url\(\'\.\/images\/mainPage\/bigLogo\.png\'\)\] {
-  background-image: url('./images/mainPage/bigLogo.png');
+    background-image: url('./images/mainPage/bigLogo.png');
 }
 
 .bg-cover {
-  background-size: cover;
+    background-size: cover;
 }
 
 .bg-contain {
-  background-size: contain;
+    background-size: contain;
 }
 
 .bg-auto {
-  background-size: auto;
+    background-size: auto;
 }
 
 .bg-fixed {
-  background-attachment: fixed;
+    background-attachment: fixed;
 }
 
 .bg-center {
-  background-position: center;
+    background-position: center;
 }
 
 .bg-top {
-  background-position: top;
+    background-position: top;
 }
 
 .bg-right {
-  background-position: right;
+    background-position: right;
 }
 
 .bg-bottom {
-  background-position: bottom;
+    background-position: bottom;
 }
 
 .bg-left-top {
-  background-position: left top;
+    background-position: left top;
 }
 
 .bg-no-repeat {
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .p-2 {
-  padding: 0.5rem;
+    padding: 0.5rem;
 }
 
 .p-5 {
-  padding: 1.25rem;
+    padding: 1.25rem;
 }
 
 .p-10 {
-  padding: 2.5rem;
+    padding: 2.5rem;
 }
 
 .px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
 }
 
 .px-3\.5 {
-  padding-left: 0.875rem;
-  padding-right: 0.875rem;
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
 }
 
 .pt-10 {
-  padding-top: 2.5rem;
+    padding-top: 2.5rem;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 
 .font-\[\'Inter\'\] {
-  font-family: 'Inter';
+    font-family: 'Inter';
 }
 
 .text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
 }
 
 .text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
 }
 
 .font-normal {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .opacity-0 {
-  opacity: 0;
+    opacity: 0;
 }
 
 .opacity-90 {
-  opacity: 0.9;
+    opacity: 0.9;
 }
 
 .hover\:scale-0:hover {
-  --tw-scale-x: 0;
-  --tw-scale-y: 0;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-scale-x: 0;
+    --tw-scale-y: 0;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:scale-\[1\.2\]:hover {
-  --tw-scale-x: 1.2;
-  --tw-scale-y: 1.2;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-scale-x: 1.2;
+    --tw-scale-y: 1.2;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:scale-\[0\.1\]:hover {
-  --tw-scale-x: 0.1;
-  --tw-scale-y: 0.1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-scale-x: 0.1;
+    --tw-scale-y: 0.1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+
+.AboutMeButton {
+    z-index: 3;
+    position: fixed;
+}
+
+.AboutMeWindow {
+
+    z-index: 1;
+}
+
+.PortfolioButton {
+    z-index: 2;
+    position: fixed;
+}
+
+.PortfolioWindow {
+    z-index: 2;
+}
+
+.ContactButton {
+    z-index: 1;
+    position: fixed;
+}
+
+.ContactWindow {
+    z-index: 1;
+}
+
+.ArrowLeft {
+    z-index: 1;
+}
+
+.AboutMeWindow {
+    background-image: url('./images/mainPage/aboutMeWindow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 0;
+    padding-top: 26.25%;
+}
+
+.ClickButton {
+    color: black;
+    padding: 5px;
+    background: #C0C0C0;
+    border: 0.3pt solid #000;
+    border-left-color: #fff;
+    font-family: "sans-serif";
+    border-top-color: black;
+    box-shadow: inset -1px -1px #000, inset 1px 1px #fff;
+    text-shadow: none;
+    font-size: 4px;
+    margin: 1px;
+    position: absolute;
+    top: 52%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.ClickButton:hover {
+    background: #808080;
+}
+
+.Computer > div {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./images/mainPage/computer.png'),
+    url('./images/mainPage/aboutMeWindow.png'),
+    url('./images/mainPage/portfolioWindow.png'),
+    url('./images/mainPage/contactWindow.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: contain, 10% 10%, 10% 10%, 10% 10%;
+    background-position: center center, center center, center center, center center;
+    width: 100%;
+    height: 0;
+    padding-top: 26.25%;
+
+}
+
+.win98-button {
+
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'MS Sans Serif', 'Microsoft Sans Serif', Tahoma, sans-serif;
+    font-size: 10px;
+    max-font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background: #C0C0C0;
+    border: 0.3pt solid #ffffff;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    padding: 1px 1px;
+    position: absolute;
+    margin-block: auto 10px;
+    top: 50%;
+    left: 40%;
+    right: 40%;
+    min-height: 2vh;
+    max-width: 80px;
+
+    z-index: 10;
+    width: 5vw; /* Fixed width */
+    height: 3vh; /* Fixed height */
+    place-content: center;
+    place-items: center;
+}
+
+.win98-button:hover {
+    background: #808080;
+}
+
+.win98-button:active {
+    border-top-color: #808080;
+    border-left-color: #808080;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+.ArrowLeft {
+
+    background-image: url('./images/mainPage/s1.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center;
+    width: 10%;
+    height: 0;
+    padding-top: 26.25%;
+    position: absolute;
+
+    top: -15%;
+    left: 30.1%;
+    z-index: 10;
+}
+
+.ArrowRight {
+
+    background-image: url('./images/mainPage/s2.png');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center center;
+    width: 50%;
+    height: 0;
+    padding-top: 26.25%;
+    position: absolute;
+    z-index: 1;
+    top: -15%;
+    left: 39.3%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .Computer > div {
+        background-size: contain, 20% 20%, 20% 20%, 20% 20%;
+    }
+
+    .win98-button {
+        font-size: 6px;
+        min-height: 1px;
+        width: 30px; /* Fixed width */
+        height: 10px; /* Fixed height */
+
+    }
 }
