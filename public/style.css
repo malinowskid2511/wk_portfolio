@@ -1411,6 +1411,7 @@ body {
     background-image: url('./images/aboutMe/background3.png');
 }
 .aboutMeHeader{
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
@@ -1457,6 +1458,13 @@ body {
         height: 10px; /* Fixed height */
 
     }
+    .gallery-item{
+        flex: 1 0 ;
+        margin: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease-in-out;
+        overflow: hidden;
+    }
 }
 .modal {
     display: none; /* Hidden by default */
@@ -1490,4 +1498,106 @@ body {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+.contactComputer{
+    background-image: url('./images/contact/komputerek 2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 100%;
+    height: 0;
+    padding-top: 26.25%;
+    margin-top: 20px;
+}
+
+#contact-form-element .contact-form {
+    margin-left: 40%;
+    margin-top: -22.5%;
+    background-color: transparent;
+    padding: 1px;
+    color: black;
+    border-radius: 8px;
+    width: 20%;
+    max-width: 100%;
+}
+
+#contact-form-element .form-group {
+    margin-bottom: 15px;
+}
+
+#contact-form-element label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+#contact-form-element input[type="text"],
+#contact-form-element input[type="email"],
+#contact-form-element textarea {
+    width: 100%;
+    padding: 2px;
+    border: solid black 1px;
+    box-shadow: black 2px 2px 2px;
+    border-radius: 4px;
+    box-sizing: border-box; /* Prevents padding from affecting width */
+}
+
+#contact-form-element textarea {
+    height: 70px;
+    resize: none; /* Allows vertical resizing */
+}
+
+#contact-form-element button {
+    background-color: transparent; /* Magenta background */
+    color: black;
+    padding: 10px 15px;
+    border: solid black 1px;
+    box-shadow: black 2px 2px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact-form-element button:hover {
+    background-color: #de52d6; /* Darker magenta on hover */
+}
+@media (max-width: 768px) {
+    #contact-form-element .contact-form {
+        padding: 15px;
+        border: 1px solid #9C27B0; /* Slightly thinner border for smaller screens */
+    }
+
+    #contact-form-element .form-group {
+        margin-bottom: 10px;
+    }
+
+    #contact-form-element input[type="text"],
+    #contact-form-element input[type="email"],
+    #contact-form-element textarea {
+        padding: 8px;
+    }
+
+    #contact-form-element button {
+        padding: 8px 10px;
+    }
+}
+@media (max-width: 480px) {
+    #contact-form-element .contact-form {
+        width: 80%; /* Shrink width on mobile for better fit */
+        height: max-content;
+        color: white;
+        margin-left: 11%;
+        margin-top: -22.5%;
+    }
+    #contact-form-element button{
+        color: white;
+        border: solid white 1px;
+        box-shadow: white 2px 2px 2px 1px;
+        background: transparent;
+
+    }
+    .contactComputer{
+        width: 100%;
+        background-position: center center;
+        background-size: min(0%, 0%);
+    }
 }
