@@ -7,10 +7,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Walentyna Portfolio</title>
-    <script src="scripts.js"></script>
-</head>
-<body class=" mx-auto bg-cover w-full h-auto bg-no-repeat bg-[url('./images/mainPage/mainBackground.png')]">
+    <script src="scripts.js" defer ></script>
 
+</head>
+<body class=" mx-auto bg-cover w-full h-auto bg-no-repeat bg-[url('./images/portfolio/background2.png')]">
+<div class="relative">
+    <div class="aboutMeHeader ">
+        <img class="aboutMeHeaderImage" src="images/aboutMe/smallLogo.png" alt="smallLogo">
+    </div>
+    <div class="gallery">
+        <!-- Add your images here -->
+        <div class="gallery-item">
+            <img id="r1" src="./images/portfolio/ramka%201.png" alt="Description" onclick="openModal(this)">
+        </div>
+        <div class="gallery-item">
+            <img id="r2" src="./images/portfolio/ramka%202.png" alt="Description" onclick="openModal(this)">
+        </div>
+        <div class="gallery-item">
+            <img id="r3" src="./images/portfolio/ramka%203.png" alt="Description" onclick="openModal(this)">
+        </div>
+        <div class="gallery-item">
+            <img id="r4" src="./images/portfolio/ramka%204.png" alt="Description" onclick="openModal(this)">
+        </div>
+        <div class="gallery-item">
+            <img id="r5" src="./images/portfolio/ramka%205.png" alt="Description" onclick="openModal(this)">
+        </div>
+        <!-- Repeat for each image -->
+    </div>
+</div>
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="rm1" alt="Image Preview" style="width:100%" src="./images/portfolio/rysunki/r1.png">
+    </div>
+</div>
+<div id="myModal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="rm2" alt="Image Preview" style="width:100%" src="./images/portfolio/rysunki/r2.png">
+    </div>
+</div>
+<div id="myModal3" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="rm3" alt="Image Preview" style="width:100%" src="./images/portfolio/rysunki/r3.png">
+    </div>
+</div>
+<div id="myModal4" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="rm4" alt="Image Preview" style="width:100%" src="./images/portfolio/rysunki/r4.png">
+    </div>
+</div>
+<div id="myModal5" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="rm5" alt="Image Preview" style="width:100%" src="./images/portfolio/rysunki/r5.png">
+    </div>
+</div>
 
 </body>
 </html>
